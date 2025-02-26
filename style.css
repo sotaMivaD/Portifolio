@@ -1,0 +1,99 @@
+a{
+    color: inherit;
+}
+body{
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+    background-color: black;
+    color: white;
+}
+#tituloprincipal{
+    display: flex;
+    margin: 0px;
+    width: fit-content;
+    font-size: 25px;
+}
+
+#ListaMenu{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+
+    
+}
+.MenuItens{
+    display: flex;
+}
+#logo{
+    width: 30px;
+    display: flex;
+}
+#inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+#Ola{
+    font-size: small;
+}
+#SejaBem{
+    font-size: small;
+    display: flex;
+
+}
+#EuSou{
+    font-size: 50px;
+    margin: 0px;
+
+}
+#Programando{
+    display: flex;
+        margin-top: 20px;
+    width: 500px;
+    height: auto;
+}
+/* Sobre mim */
+#Sobre{
+    background-color: black ;
+    color: white;
+    text-align: center;
+}
+#SobreMim{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+#Biografia{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: -20px;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+/* Seção de Projetos */
+#h1Projetos{
+    text-align: center;
+    font-size: 2rem;
+}
+#ProjetosContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Seção de Tecnologias */
+#Tecnologias{
+    background-color: black;
+    color: white;
+}
