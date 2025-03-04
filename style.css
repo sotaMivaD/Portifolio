@@ -126,3 +126,79 @@ header{
 }
 
 
+/* Para telas menores que 768px (celulares e tablets) */
+@media screen and (max-width: 768px) {
+    /* Ajusta o header para melhor alinhamento */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #ListaMenu {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    /* Seção inicial */
+    #inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #EuSou {
+        font-size: 28px;
+    }
+
+    #Programando {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Projetos em coluna */
+    #ProjetosContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Tecnologias em coluna */
+    #TecnologiasUtilizadas,
+    #TecnologiasEstudando {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .techs {
+        width: 100px;
+    }
+}
+
+/* Para telas menores que 480px (celulares pequenos) */
+@media screen and (max-width: 480px) {
+    /* Reduz tamanho do título */
+    #tituloprincipal {
+        font-size: 20px;
+    }
+
+    #EuSou {
+        font-size: 24px;
+    }
+
+    #Programando {
+        width: 95%;
+    }
+
+    /* Reduz tamanho das tecnologias */
+    .techs {
+        width: 80px;
+    }
+
+    /* Ajusta espaçamentos */
+    #Biografia {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
