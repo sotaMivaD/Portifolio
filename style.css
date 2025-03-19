@@ -27,14 +27,17 @@ header{
     gap: 50px;
 }
 .MenuItens{
-    list-style-type: none
+    list-style-type: none;
+  
 }
 .MenuItens a{
-    transition: color 0.3s ease;
+    display: inline-block;
+    transition: color 0.3s ease,transform 0.3s ease-in-out;
 }
 .MenuItens a:hover,
 .MenuItens a:focus {
     color: #FFD700; /* Um destaque ao passar o mouse */
+    transform:scale(1.3);
 }
 
 #logo{
@@ -109,12 +112,14 @@ header{
     background-color: black;
     color: white;
     padding: 5px;
+    
+    
 }
 
 #TecnologiasUtilizadas{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px;;
 }
 #h1Techs{
     text-align: center;
@@ -124,14 +129,15 @@ header{
     text-align: center
 }
 .techs{
-    width: 200px;
+    width: 150px;
     height: auto;
+    object-fit: cover;
 }
 #TecnologiasEstudando{
     display: flex;
     justify-content: center;
     gap: 100px;
-    
+    margin-bottom: 50px;
 }
 
 /* Seção de contatos */
@@ -146,8 +152,22 @@ header{
     justify-content: center;
     gap: 20px;
 }
-#contatos img{
+.RedesSociais{
     width: 50px;
+    height: auto;
+}
+#LogoGitHub{
+    position: relative;
+    width: 100px;
+    right: 30px;
+    bottom: 5px;
+}
+
+.RedesSociais,#LogoGitHub{
+    transition: transform 0.3s ease-in-out;
+}
+.RedesSociais:hover,#LogoGitHub:hover{
+    transform: scale(1.3);
 }
 
 section{
